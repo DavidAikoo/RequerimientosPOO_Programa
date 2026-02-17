@@ -1,7 +1,10 @@
 # 📅 Sistema de Gestión de Citas
 
-Proyecto desarrollado en Java aplicando arquitectura **MVC (Modelo - Vista - Controlador)** y separación por capas.  
+Proyecto desarrollado en Java aplicando arquitectura **MVCS (Modelo - Vista - Controlador - Servicios)** y separación por capas.  
 Permite registrar, listar, modificar y eliminar citas desde consola.
+
+IA Utilizada:
+Documento - Apoyo para creación gráfica de diagramas UML en PlantUML
 
 ---
 
@@ -26,30 +29,9 @@ Cada cita tiene un estado que puede ser:
 
 ---
 
-## 🏗 Arquitectura del Proyecto
-
-El proyecto está organizado en paquetes siguiendo el patrón MVC:
-
-org.example
-│
-├── Model
-│ ├── Cita.java
-│ └── EstadoCita.java
-│
-├── View
-│ └── CitaView.java
-│
-├── Controller
-│ └── CitaController.java
-│
-├── Service
-│ ├── CitaService.java
-│ └── CitaServiceImpl.java
-│
-└── Main.java
-
----
-
 ## 👨‍💻 Autor
 
+Juan David Ruge Garzón aka DavidAikoo
+
 Proyecto académico desarrollado como práctica de arquitectura MVC y diseño por capas en Java.
+
